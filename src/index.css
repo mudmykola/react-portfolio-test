@@ -124,6 +124,7 @@ img {
     }
     section {
         margin-top: 96px;
+        height: 100vh;
     }
 }
 
