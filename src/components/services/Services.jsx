@@ -16,23 +16,15 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website and mobile application design.</p>
             </li>
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>I will develop a clear and user-friendly interface.</p>
             </li>
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>I will choose the color scheme and font pair.</p>
             </li>
           </ul>
         </article>
@@ -44,23 +36,11 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Web development, adaptation and integration on wordpress.</p>
             </li>
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Using modern technology, and writing clean and valid code.</p>
             </li>
           </ul>
         </article>
@@ -72,23 +52,14 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                I have a clear plan for the development and promotion of your
+                product.
+              </p>
             </li>
             <li>
               <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service-list__icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Additionally, I will develop a layout and write code.</p>
             </li>
           </ul>
         </article>
