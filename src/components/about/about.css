@@ -75,7 +75,7 @@
     }
     .about-me {
         width: 50%;
-        margin: 32px auto 64px;
+        margin: 85px auto 85px;
     }
     .about-content {
         margin-top: 30px;
@@ -88,7 +88,7 @@
 @media screen and (max-width:600px) {
     .about-me {
         width: 65%;
-        margin: 0 auto 48px;
+        margin: 56px auto 56px;
     }
     .about-cards {
         grid-template-columns: 1fr 1fr;

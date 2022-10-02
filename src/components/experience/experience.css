@@ -40,9 +40,34 @@
     color: var(--color-primary);
 }
 
-
 /* MEDIA */
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
 
-@media screen and (max-width:600px) {}
+    .experience-box {
+        grid-template-columns: 1fr;
+
+    }
+
+    .experience-box>div {
+        width: 80%;
+        padding: 32px;
+        margin: 0 auto;
+    }
+
+    .experience-content {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+    .experience-box {
+        gap: 16px;
+    }
+    .experience-box > div{
+        width: 100%;
+        padding: 32px 16px;
+        
+    }
+}

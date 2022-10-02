@@ -7,7 +7,6 @@ const Experience = () => {
     <section id='experience'>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
-
       <div className="container experience-box">
         <div className="experience-frontend">
           <h3>Front-End Skills</h3>
@@ -28,7 +27,6 @@ const Experience = () => {
                   <h4>CSS</h4>
                   <p className='text-light'>Intermediate</p>
                 </div>
-
               </div>
             </article>
             <article>
@@ -38,7 +36,6 @@ const Experience = () => {
                   <h4>SCSS</h4>
                   <p className='text-light'>Intermediate</p>
                 </div>
-
               </div>
             </article>
             <article>
@@ -48,7 +45,6 @@ const Experience = () => {
                   <h4>JavaScript</h4>
                   <p className='text-light'>Experienced</p>
                 </div>
-
               </div>
             </article>
             <article>
@@ -58,7 +54,6 @@ const Experience = () => {
                   <h4>Jquery</h4>
                   <p className='text-light'>Intermediate</p>
                 </div>
-
               </div>
             </article>
             <article>
@@ -122,7 +117,7 @@ const Experience = () => {
             </article>
             <article>
               <div className="experience-details">
-                <BsPatchCheckFill className="experience-details__icon"  />
+                <BsPatchCheckFill className="experience-details__icon" />
                 <div>
                   <h4>React</h4>
                   <p className='text-light'>Basic</p>
