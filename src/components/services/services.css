@@ -47,7 +47,16 @@
 /* MEDIA */
 
 @media screen and (max-width: 1024px) {
+  .service-list p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .services-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service-list p {
+    font-size: 11px;
+  }
 }
