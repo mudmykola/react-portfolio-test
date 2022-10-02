@@ -10,7 +10,7 @@ const Services = () => {
       <div className="container services-box">
         {/*uxui */}
         <article className="service">
-          <div className="service-hread">
+          <div className="service-head">
             <h3>UI/UX Design</h3>
           </div>
           <ul className="service-list">
@@ -38,7 +38,7 @@ const Services = () => {
         </article>
         {/*web dev*/}
         <article className="service">
-          <div className="service-hread">
+          <div className="service-head">
             <h3>Web Development</h3>
           </div>
           <ul className="service-list">
@@ -66,7 +66,7 @@ const Services = () => {
         </article>
         {/*digital marketing */}
         <article className="service">
-          <div className="service-hread">
+          <div className="service-head">
             <h3>Digital Marketing</h3>
           </div>
           <ul className="service-list">

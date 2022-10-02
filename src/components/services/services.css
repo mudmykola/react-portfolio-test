@@ -22,3 +22,32 @@
   border-radius: 0 0 32px 32px;
   box-shadow: 0 32px 16px rgba(0, 0, 0, 0.1);
 }
+.service-head h3 {
+  color: var(--color-bg);
+  font-size: 16px;
+  text-align: center;
+}
+.service-list {
+  padding: 32px;
+}
+.service-list li {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.service-list__icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+  font-size: 25px;
+}
+.service-list p {
+  font-size: 14px;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+}
