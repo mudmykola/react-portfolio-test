@@ -3,13 +3,28 @@ import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { TbBrandTelegram } from "react-icons/tb";
 import { BsTelephoneInbound } from "react-icons/bs";
+import { useRef } from "react";
+import emailJs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailJs.sendForm(
+      "service_d1jtg7k",
+      "template_0cs470h",
+      form.current,
+      "qu0ktEzf6O9DZCggs"
+    );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Toch</h5>
       <h2>Contact Me</h2>
-
       <div className="container contact-box">
         <div className="contact-box__options">
           <article className="contact-box__option">
@@ -35,7 +50,7 @@ const Contact = () => {
             <a href="tel:+380978027062">Call up</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} on onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
