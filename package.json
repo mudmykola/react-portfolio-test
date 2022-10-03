@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://react-portfolio.surge.sh",
+  "homepage": "http://react-portfolio.surge.sh",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
